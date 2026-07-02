@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shooting Stars is a by-creatives-for-creatives social media agency helping brands shine online." />
+  <title>Apply | Shooting Stars</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="apply">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Shooting Stars home">
+      <span class="brand-mark">✦</span>
+      <span>Shooting Stars</span>
+    </a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="apply.html">Apply</a><a href="contact.html">Contact</a></nav>
+  </header>
+  <main><section class="page-hero"><p class="eyebrow">Apply</p><h1>Apply to work with Shooting Stars.</h1><p>Tell us where your brand is now and where you want it to go.</p></section>
+<section class="section form-section">
+  <div><h2>Let’s make your social media work harder.</h2><p>After you submit, we’ll review your details and follow up to schedule a discovery call.</p></div>
+  <form name="application" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="application">
+    <label>Name<input name="name" required></label>
+    <label>Email<input type="email" name="email" required></label>
+    <label>Business Name<input name="business"></label>
+    <label>Website or Instagram<input name="website"></label>
+    <label>What kind of support are you looking for?<select name="service"><option>Content Creation</option><option>Social Media Management</option><option>Full-Service Integration</option><option>Not sure yet</option></select></label>
+    <label>Tell us about your goals<textarea name="message" rows="6"></textarea></label>
+    <button class="btn primary" type="submit">Submit Application</button>
+  </form>
+</section></main>
+  <footer class="footer">
+    <div>
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span><span>Shooting Stars</span></a>
+      <p>Let your social media shine.</p>
+    </div>
+    <div class="footer-links">
+      <a href="apply.html">Apply</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="https://tiktok.com/" target="_blank" rel="noreferrer">TikTok</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
